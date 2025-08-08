@@ -1,6 +1,6 @@
 {
   "$schema": "https://aka.ms/codetour-schema",
-  "title": "0: Sign in to your Okta training org",
+  "title": "0 - Sign in to your Okta training org",
   "nextTour": "1 - Get the sample app up and running",
   "steps": [
     {

@@ -23,7 +23,7 @@
     },
     {
       "file": ".okta.env",
-      "description": "## Update ORG_URL environment variable\n\nNotice that the `.okta.env` file has been opened for you. Let's update the `OKTA_ORG_URL` environment variable.\n\nRecall that can copy your Okta org's URL from the side panel in your VM under **Link**.\n\nThe value of this variable should be a string of the form: `\"https://oktaice#######.oktapreview.com\"`",
+      "description": "## Update ORG_URL environment variable\n\nNotice that the `.okta.env` file has been opened for you. Let's update the `OKTA_ORG_URL` environment variable.\n\nRecall that can copy your Okta org's URL from the lab session in Okta Learning.\n\nThe value of this variable should be a string of the form: `\"https://oktaice#######.oktapreview.com\"`",
       "line": 1,
       "title": "Update ORG_URL environment variable",
       "selection": {
@@ -39,7 +39,7 @@
     },
     {
       "file": ".okta.env",
-      "description": "## Update CLIENT_ID and CLIENT_SECRET environment variables\n\nNotice that the `.okta.env` file has been opened for you. Using the client credentials details on your Okta app's OIDC integration page, update the **CLIENT_ID** and **CLIENT_SECRET** environment variables. All variables must be stored as strings.\n\nAfter you have updated the environment variables, this file should look similar to below:\n```\nORG_URL=https://oktaice#######.oktapreview.com\nCLIENT_ID=myClientIdString\nCLIENT_SECRET=myClientSecretString\n```\n\nClick [here](command:workbench.action.files.save) to save your changes to this file.",
+      "description": "## Update CLIENT_ID and CLIENT_SECRET environment variables\n\nNotice that the `.okta.env` file has been opened for you. Using the client credentials details on your Okta app's OIDC integration page, update the **CLIENT_ID** and **CLIENT_SECRET** environment variables. All variables must be stored as strings.\n\nAfter you have updated the environment variables, this file should look similar to below:\n```\nORG_URL=\"https://oktaice#######.oktapreview.com\"\nCLIENT_ID=\"myClientIdString\"\nCLIENT_SECRET=\"myClientSecretString\"\n```\n\nClick [here](command:workbench.action.files.save) to save your changes to this file.",
       "line": 3,
       "title": "Update environment variables: OKTA_CLIENT_ID and OKTA_CLIENT_SECRET",
       "selection": {
